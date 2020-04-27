@@ -23,7 +23,7 @@ object binary_values {
      * such a way that:
      *
      * {{{
-     * compose(compose(a, b), c) compose(a, compose(b, c))
+     * compose(compose(a, b), c) == compose(a, compose(b, c))
      * }}}
      *
      * for all `a`, `b`, `c`.
